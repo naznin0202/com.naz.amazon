@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify amazon home page has customer service link",
+        "description": "",
+        "id": "amazon-customer-service;verify-amazon-home-page-has-customer-service-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2368508000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch Amazon url",
+            "match": {
+              "location": "StepDef.launch_Amazon_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 643488000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify amazon home page has customer service link",
+            "match": {
+              "location": "StepDef.verify_amazon_home_page_has_customer_service_link()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@naz1"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Verify amazon displays customer service page",
+        "description": "",
+        "id": "amazon-customer-service;verify-amazon-displays-customer-service-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1846188300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Launch Amazon url",
+            "match": {
+              "location": "StepDef.launch_Amazon_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1408078800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click the customer service link",
+            "match": {
+              "location": "StepDef.click_the_customer_service_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 375210800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify amazon displays customer service page",
+            "match": {
+              "location": "StepDef.verify_amazon_displays_customer_service_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@naz2"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Customer Service",
+    "description": "",
+    "id": "amazon-customer-service",
+    "keyword": "Feature",
+    "uri": "amazon.feature"
+  }
+]
